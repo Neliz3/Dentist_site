@@ -1,0 +1,75 @@
+@font-face {
+font-family: Exo;
+src: url(/fonts/Exo2-VariableFont_wght.ttf);
+}
+
+* {
+font-family:'Courier New', Courier, monospace;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+background-color: white;
+padding: 0;
+line-height: 1.5;
+background-image: url('/static/images/body.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+::-webkit-scrollbar {
+width: 4px;
+height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+background: #7fffd4;
+}
+
+::-webkit-scrollbar-button{
+background-color: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar-track{
+background-color: rgba(255, 255, 255, 0.44);
+}
+
+.allert {
+    color: red;
+}
+
+.allert {
+    color: red;
+}
+
+.button{
+position: fixed;
+bottom: 1%;
+right: 1%;
+}
+
+.up-button {
+width: 80px;
+height: 80px;
+}
+
+dd{
+margin: 1%;
+padding: 1%;
+}
+
+dd ul li{
+list-style:disc;
+color: #000000b0;
+}
+
+ul {
+list-style: none;
+}

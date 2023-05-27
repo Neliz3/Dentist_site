@@ -1,0 +1,32 @@
+body{
+    /*background-image: url('/static/images/admin.jpg');*/
+    color: white;
+}
+
+.content {
+    padding: 3%;
+    line-height: 1.5;
+    background-image: url('/static/images/admin.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 3%;
+}
+
+.plus {
+    border-style: dashed;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.162);
+    background-image: none;
+    width: max-content;
+}
+
+.underlines {
+    color: red;
+    text-decoration: none;
+}
+
+.block-enter {
+    color: red;
+}

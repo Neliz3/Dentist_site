@@ -1,0 +1,81 @@
+.login-form {
+    font-size: 170%;
+    background-color: white;
+    display: flex;
+    margin: 15%;
+    margin-bottom: 1%;
+    margin-left: 29%;
+    width: max-content;
+    padding: 3%;
+    border-radius: 15%;
+}
+
+.link-under a:hover {
+    padding-left: 2px;
+}
+
+.link-under a {
+    margin-left: 37%;
+    margin-bottom: 15%;
+    color: red;
+    text-decoration: none;
+}
+
+input:focus {
+color: red;
+outline: none;
+}
+
+input[type=tel], input[type=password], input[type=text], input[type=email], input[type=date] {
+font-size: 90%;
+height: 30px;
+font-style: italic;
+font-weight: 500;
+color: rgb(255, 0, 0);
+background-color: rgba(255, 255, 255, 0);
+border: none;
+border-bottom-style: solid;
+border-bottom-width: 0.3px;
+border-bottom-color: red;
+}
+
+input[type=date] {
+    font-size: 70%;
+    width: 40%;
+    border: solid;
+    border-width: 0.3px;
+    border-color: red;
+}
+
+input[type=text]{
+    text-transform: capitalize;
+}
+
+input[type=submit], .signup {
+color: rgb(255, 0, 0);
+background-color: rgb(255, 255, 255);
+border-color: red;
+cursor: pointer;
+height: 30px;
+width: 100px;
+font-family: 'Exo2-VariableFont_wght';
+font-weight: 900;
+font-size: large;
+}
+
+input[type=submit]:hover, .signup:hover {
+background-color: rgba(255, 255, 255, 0.712);
+border: none;
+color: rgba(255, 0, 0, 0.581);
+}
+
+input[type=reset]{
+    color: grey;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+    font-family: 'Exo2-VariableFont_wght';
+    font-weight: 900;
+    font-size: small;
+}
